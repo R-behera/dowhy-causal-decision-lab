@@ -1,0 +1,92 @@
+{
+  "upstream": {
+    "owner": "py-why",
+    "repo": "dowhy",
+    "source_url": "https://github.com/py-why/dowhy",
+    "local_path": "/Users/Rb/Documents/LLM based projects /sources/py-why__dowhy",
+    "branch": "main",
+    "default_branch": "main",
+    "commit": "5466215696b4f07f1476c39889bd46cf33345ead",
+    "fork_requested": false,
+    "fork_result": ""
+  },
+  "audit": {
+    "file_count": 505,
+    "text_file_count": 285,
+    "top_suffixes": [
+      [
+        ".py",
+        253
+      ],
+      [
+        ".rst",
+        85
+      ],
+      [
+        ".ipynb",
+        49
+      ],
+      [
+        ".png",
+        48
+      ],
+      [
+        ".csv",
+        18
+      ],
+      [
+        ".yml",
+        14
+      ],
+      [
+        "<none>",
+        11
+      ],
+      [
+        ".md",
+        9
+      ]
+    ],
+    "style_counts": {
+      "hidden": 6,
+      "PascalCase": 10,
+      "other": 128,
+      "kebab-case": 44,
+      "camelCase": 1,
+      "snake_case": 316
+    },
+    "token_hits": {
+      "TODO": [
+        "tests/test_notebooks.py",
+        "dowhy/do_sampler.py",
+        "dowhy/causal_graph.py",
+        "dowhy/graph.py",
+        "dowhy/datasets.py",
+        "dowhy/causal_estimator.py",
+        "dowhy/causal_model.py",
+        "dowhy/interpreters/propensity_balance_interpreter.py"
+      ]
+    },
+    "findings": [
+      "Missing a top-level README, which makes onboarding and evaluation harder.",
+      "No container packaging signal detected, which makes demos and deployment less portable.",
+      "Mixed filename conventions detected: PascalCase, kebab-case, snake_case.",
+      "Open maintenance markers detected: TODO in 28 file(s).",
+      "Large files that may benefit from decomposition: .github/workflows/repo-assist.lock.yml (1678 lines), dowhy/causal_identifier/auto_identifier.py (1163 lines), dowhy/datasets.py (1144 lines)."
+    ],
+    "strengths": [
+      "Repository exposes a dedicated docs surface.",
+      "Repository appears to include a test surface.",
+      "Repository has GitHub Actions or another CI entry point."
+    ],
+    "largest_files": [
+      ".github/workflows/repo-assist.lock.yml (1678 lines)",
+      "dowhy/causal_identifier/auto_identifier.py (1163 lines)",
+      "dowhy/datasets.py (1144 lines)"
+    ],
+    "has_tests": true,
+    "has_docs": true,
+    "has_ci": true,
+    "has_docker": false
+  }
+}
